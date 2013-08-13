@@ -5,7 +5,7 @@
 
 case "$1" in
         install)
-            apt-get install $1
+            apt-get install $2
             ;;
         search)
             apt-cache search $2
