@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Jetbrains IDEA
+Comment=JAVA IDE
+Exec=/opt/tools/idea-IU-129.713/bin/idea.sh
+Icon=/opt/tools/idea-IU-129.713/bin/idea.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development;
+X-Desktop-File-Install-Version=0.20
