@@ -49,6 +49,6 @@ case "$1" in
 		esac
             ;;
         *)
-            echo $"Usage: $0 {install|search|check-update|remove}"
+            echo $"Usage: $0 {install|search|update|check-update|remove|list|info|clean}"
             exit 1
 esac
