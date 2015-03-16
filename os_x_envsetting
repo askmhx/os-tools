@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>MxWorkSetting</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>sh</string>
+    <string>-c</string>
+    <string>
+    launchctl setenv GOROOT /usr/local/go
+    launchctl setenv GOPATH /Users/Crazz/WorkSpace/GOWork/gife
+    launchctl setenv ANDROID_HOME /usr/local/android-sdk
+    launchctl setenv GRADLE_HOME /usr/local/gradle-2.2.1
+    </string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+</dict>
+</plist>
