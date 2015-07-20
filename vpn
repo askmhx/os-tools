@@ -1,0 +1,15 @@
+#!/bin/bash
+
+CMD=$1
+FUIOU='/Users/Crazz/Documents/VPNConfig/fuiou'
+LINODE='/Users/Crazz/Documents/VPNConfig/linode'
+
+if [ $CMD == 'fuiou' ]; then
+	sudo cp $FUIOU/ip-* /etc/ppp/
+	sudo cp $FUIOU/options /etc/ppp/
+	echo 'fuiou vpn configuration loaded'
+elif [ $CMD == 'linode' ]; then
+	sudo cp $LINODE/ip-* /etc/ppp/
+	sudo cp $LINODE/options /etc/ppp/
+	echo 'linode vpn configuration loaded'
+fi
