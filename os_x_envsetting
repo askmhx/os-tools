@@ -9,10 +9,8 @@
     <string>sh</string>
     <string>-c</string>
     <string>
-    launchctl setenv GOROOT /usr/local/go
-    launchctl setenv GOPATH /Users/Crazz/WorkSpace/GOWork/gife
-    launchctl setenv ANDROID_HOME /usr/local/android-sdk
-    launchctl setenv GRADLE_HOME /usr/local/gradle-2.2.1
+    launchctl setenv ANDROID_HOME /Users/Crazz/Library/Android/sdk
+    launchctl setenv GRADLE_HOME /usr/local/gradle
     </string>
   </array>
   <key>RunAtLoad</key>
