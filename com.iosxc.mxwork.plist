@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>MxWorkSetting</string>
+  <string>com.iosxc.mxwork</string>
   <key>ProgramArguments</key>
   <array>
     <string>sh</string>
@@ -11,6 +11,9 @@
     <string>
     launchctl setenv ANDROID_HOME /Users/Crazz/Library/Android/sdk
     launchctl setenv GRADLE_HOME /usr/local/gradle
+    launchctl setenv JAVA_HOME /Library/Java/JavaVirtualMachines/current/Contents/Home
+    launchctl setenv CLASSPATH .:/Library/Java/JavaVirtualMachines/current/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/current/Contents/Home/lib/tools.jar
+    launchctl setenv CATALINA_HOME /usr/local/8tomcat
     </string>
   </array>
   <key>RunAtLoad</key>
