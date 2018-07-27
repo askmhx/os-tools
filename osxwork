@@ -2,4 +2,5 @@
 /Users/Crazz/Library/Android/sdk/tools
 /Users/Crazz/Library/Haskell/bin
 /usr/local/gradle/bin
-/usr/local/tomcat8/bin
+/usr/local/tomcat/bin
+/usr/local/maven/bin
