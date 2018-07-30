@@ -1,5 +1,5 @@
 {
 	"hot_exit": false, 
-    "wrap_width": 99999,
+    	"wrap_width": 99999,
 	"remember_open_files": false
 }
