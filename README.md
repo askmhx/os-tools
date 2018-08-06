@@ -1,4 +1,4 @@
-linuxtools
+os tools
 ==========
 
-Useful linux tools(shell script/packages etc..)
+Useful os tools(shell script/packages etc..)
